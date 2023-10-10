@@ -11,11 +11,11 @@ def catAndMouse(x, y, z):
     zx = abs(x-z)
     zy = abs(y-z)
     if zx == zy:
-        return("Mouse C")
+        return "Mouse C"
     elif zx < zy:
-        return("Cat A")
+        return "Cat A"
     elif zx > zy:
-        return("Cat B")
+        return "Cat B"
     
 print(catAndMouse(0,10,5))
 # if __name__ == '__main__':
