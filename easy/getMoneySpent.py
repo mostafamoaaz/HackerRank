@@ -30,11 +30,7 @@ def getMoneySpent(keyboards, drives, b):
 k = [50, 10]
 d = [5, 2, 8]
 b = 10
-z = -3
-x = 2
-zx = abs(x-z)
-print(zx)
-#print(getMoneySpent(k,d,b))
+print(getMoneySpent(k,d,b))
 # if __name__ == '__main__':
 #     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 

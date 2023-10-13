@@ -21,14 +21,12 @@ def sockMerchant(n, ar):
     for i in range(n):
         if flag[i] :
             for j in range(i+1,n):
-                print (i,j)
                 if ar[i] == ar[j] and flag[j]:
                     pair += 1
                     flag[i],flag[j] = 0 ,0
-                    print(flag)
                     break
 
-    print(pair)
+    return pair
 
 
     
